@@ -9,12 +9,8 @@ import br.ufrn.imd.dominio.Pessoa;
 @SessionScoped 
 public class CadastroMBean {
  
-	//atributo pessoa
 	Pessoa pessoa;
-	
-	/** 
-		* Construtor 
-	*/ 
+
 	public CadastroMBean() { 
 		pessoa = new Pessoa(); 
 	} 
@@ -28,12 +24,10 @@ public class CadastroMBean {
 	} 
 	  
 	/** 
-		* Método para realização do cadastro. 
-		* @return 
+	* Método para realização do cadastro. 
+	* @return 
 	*/ 
-
 	public String cadastrar() { 
 		return "/sucesso.jsf"; 
 	} 
-
 }
